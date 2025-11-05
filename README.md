@@ -4,7 +4,7 @@
 
 1. Start Container
 
-```
+```sh
 docker compose up
 ```
 
@@ -12,8 +12,10 @@ docker compose up
 
 http://localhost:6080/vnc.html
 
-3. Execute main.ts
+3. Execute playwright example
 
-```
+```sh
+cd  examples/hello-playwright-ts
+npm install
 npm run start
 ```
