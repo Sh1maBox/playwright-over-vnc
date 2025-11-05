@@ -12,7 +12,7 @@
   "license": "ISC",
   "packageManager": "pnpm@10.18.3",
   "dependencies": {
-    "playwright-core": "^1.56.1",
+    "playwright-core": "~1.55.1",
     "typescript": "^5.9.3"
   },
   "devDependencies": {
