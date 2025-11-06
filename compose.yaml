@@ -3,7 +3,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: playwright-vnc
     ports:
       - "5900:5900" # VNC
       - "6080:6080" # noVNC

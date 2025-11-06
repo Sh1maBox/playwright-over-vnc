@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM mcr.microsoft.com/playwright:v1.56.1-noble
+FROM mcr.microsoft.com/playwright:v1.55.1-noble
 
 ENV DEBIAN_FRONTEND=noninteractive
 ENV DISPLAY=:1
@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-RUN npm install -g playwright
+RUN npm install -g playwright@1.55
 
 RUN mkdir -p /tmp/.X11-unix \
     && chown root:root /tmp/.X11-unix \

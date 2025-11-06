@@ -1,0 +1,6 @@
+[project]
+name = "hello-playwright"
+version = "0.1.0"
+dependencies = [
+    "playwright>=1.55.0,<1.56.0",
+]
