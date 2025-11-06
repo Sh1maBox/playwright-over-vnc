@@ -13,6 +13,8 @@ const page = await context.newPage()
 await page.goto("/")
 console.log(await page.title())
 
+await page.waitForTimeout(2000)
+
 // clean up
 await browser.close()
 await context.close()
