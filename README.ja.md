@@ -16,5 +16,5 @@ http://localhost:6080/vnc.html
 
 サンプルコードの実行方法は、各サンプルディレクトリのREADMEを参照してください。
 
-- [TypeScriptサンプル](./examples/hello-playwright-ts/README.md)
-- [Pythonサンプル](./examples/hello-playwright-python/README.md)
+- [TypeScriptサンプル](./examples/hello-playwright-ts)
+- [Pythonサンプル](./examples/hello-playwright-python)

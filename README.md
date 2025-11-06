@@ -18,5 +18,5 @@ http://localhost:6080/vnc.html
 
 See the README in each example directory for how to run the sample code.
 
-- [TypeScript Example](./examples/hello-playwright-ts/README.md)
-- [Python Example](./examples/hello-playwright-python/README.md)
+- [TypeScript Example](./examples/hello-playwright-ts)
+- [Python Example](./examples/hello-playwright-python)
